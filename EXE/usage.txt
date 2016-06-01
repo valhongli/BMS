@@ -1,0 +1,25 @@
+1: just double click run.bat the results will in output folder
+
+2: invoke a command line program, and type:
+BMS.exe src/ output/ 8 7 9 9 2 1 400
+
+PS:
+the parameters list:
+input_dir
+output_dir
+sample_step_size
+dilation_width_1
+dilation_width_2
+blur_std
+color_space
+whitening
+max_dim
+%{
+sample_step_size     =   8; % \delta
+max_dim              =   400; % maximum dimension of the image
+dilation_width_1     =   max(round(7*max_dim/400),1); % \omega
+dilation_width_2     =   max(round(9*max_dim/400),1); % \kappa
+blur_std             =   round(9*max_dim/400); % \sigma
+color_space          =   2; % RGB: 1; Lab: 2; LUV: 4
+whitening            =   1; % do color whitening
+%}
