@@ -11,4 +11,6 @@ In folder EXE, you can directly run the program to get the eye fixation results.
 
 In folder VisualStudio, the entire solution is presented. By opening BMS.sln, you can get the solution run.
 
+In folder MatlabWrapper, run demo.m to get the results saved in folder output.
+
 I use OpenCV 2.4.9.
