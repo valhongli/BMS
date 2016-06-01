@@ -1,0 +1,7 @@
+﻿  BMS.cpp
+  main.cpp
+main.cpp(143): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  Generating code
+  All 366 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BMS.vcxproj -> C:\Users\leon\Documents\MATLAB\BMS\EXE\BMS_CODE\BMS\x64\Release\BMS.exe
